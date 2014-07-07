@@ -4,7 +4,7 @@ date: 2014-07-07
 published: true
 author: Chris Olah
 mathjax: on
-tags: neural networks, deep learning, representations, type theory, category theory
+tags: neural networks, deep learning, representations, NLP, recursive neural networks
 ---
 
 One Hidden Layer Neural Networks
@@ -303,7 +303,7 @@ Deep learning is a very young field, where theories aren't strongly established 
 
 This post reviews a lot of research results I find very exciting, but my main motivation is to set the stage for a future post exploring connections between deep learning, type theory and functional programming. If you're interested, you can subscribe to my [rss feed](../../rss.xml) so that you'll see it when it is published.
 
-*(I would be delighted to hear your comments and thoughts: you can comment inline or at the end. For typos, technical errors, or clarifications you would like to see added, you are encouraged to make a pull request on [github])*
+*(I would be delighted to hear your comments and thoughts: you can comment inline or at the end. For typos, technical errors, or clarifications you would like to see added, you are encouraged to make a pull request on [github](https://github.com/colah/NLP-RNNs-Representations-Post))*
 
 Acknowledgments
 ===============
