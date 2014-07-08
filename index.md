@@ -7,6 +7,15 @@ mathjax: on
 tags: neural networks, deep learning, representations, NLP, recursive neural networks
 ---
 
+Introduction
+============
+
+In the last few years, deep neural networks have dominated pattern recognition. They blew the previous state of the art out of the water for many computer vision tasks. Voice recognition is also moving that way.
+
+But despite the results, we have to wonder... why do they work so well?
+
+This post reviews some extremely remarkable results in applying deep neural networks to natural language processing (NLP). In doing so, I hope to make accessible one promising answer as to why deep neural networks work. I think it's a very elegant perspective.
+
 One Hidden Layer Neural Networks
 ================================
 
@@ -30,7 +39,7 @@ And so, it's true that one hidden layer neural networks are universal. But there
 
 Universality means that a network can fit to any training data you give it. It doesn't mean that it will interpolate to new data points in a reasonable way.
 
-That said... There does, in fact, seem to be something very powerful about neural networks with many layers. But it's much more subtle than universality. The goal of this post is to get at what that subtle thing is.
+No, universality isn't an explanation for why neural networks work so well. The real reason seems to be something much more subtle... And, to understand it, we'll first need to understand some concrete results.
 
 [perceptron]: http://en.wikipedia.org/wiki/Perceptron
 
@@ -297,7 +306,7 @@ I don't feel qualified to articulate these concerns. I'd encourage someone who f
 Conclusion
 ===========
 
-The representation perspective of deep learning is a powerful view that seems to answer why deep neural networks are so effective.
+The representation perspective of deep learning is a powerful view that seems to answer why deep neural networks are so effective. Beyond that, I think there's something extremely beautiful about it: why are neural networks effective? Because better ways of representing data can pop out of optimizing layered models.
 
 Deep learning is a very young field, where theories aren't strongly established and views quickly change. That said, it is my impression that the representation-focused perspective of neural networks is presently very popular.
 
