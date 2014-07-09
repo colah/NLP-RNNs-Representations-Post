@@ -31,7 +31,7 @@ Note that there are only a finite number of possible inputs. For each possible i
 <img src="img/flowchart-PerceptronLookup.png" alt="" style="">
 </div>
 
-[^1]: Constructing a case for every possible input requires $2^n$ hidden neurons, when you have $n$ input neurons. In reality, the situation isn't usually that bad. You can have cases that encompass multiple inputs. And you have can have overlapping cases that add together to achieve the right input on their intersection.
+[^1]: Constructing a case for every possible input requires $2^n$ hidden neurons, when you have $n$ input neurons. In reality, the situation isn't usually that bad. You can have cases that encompass multiple inputs. And you can have overlapping cases that add together to achieve the right input on their intersection.
 
 [^2]: (It isn't only perceptron networks that have universality. Networks of sigmoid neurons (and other activation functions) are also universal: give enough hidden neurons, they can approximate any continuous function arbitrarily well. Seeing this is significantly trickier because you can't just isolate inputs.)
 
@@ -162,7 +162,7 @@ There's a counterpart to this trick. Instead of learning a way to represent one 
 One nice example of this is a bilingual word-embedding, produced in [Socher *et al.* (2013a)]. We can learn to embed words from two different languages in a single, shared space. In this case, we learn to embed English and Mandarin Chinese words in the same space.
 
 <div class="floatrightimgcontainer">
-<img src="img/flowchart-billingual.png" alt="" style="">
+<img src="img/flowchart-bilingual.png" alt="" style="">
 </div>
 
 We train two word embeddings, $W_{en}$ and $W_{zh}$ in a manner similar to how we did above. However, we know that certain English words and Chinese words have similar meanings. So, we optimize for an additional property: words that we know are close translations should be close together.
@@ -178,7 +178,7 @@ Intuitively, it feels a bit like the two languages have a similar 'shape' and th
 <div class="caption">t-SNE visualization of the bilingual word embedding. Green is Chinese, Yellow is English. ([Socher *et al.* (2013a)])</div>
 </div>
 
-In billingual word embeddings, we learn a shared representation for two very similar kinds of data. But we can also learn to embed very different kinds of data in the same space.
+In bilingual word embeddings, we learn a shared representation for two very similar kinds of data. But we can also learn to embed very different kinds of data in the same space.
 
 <div class="floatrightimgcontainer">
 <img src="img/flowchart-DeViSE.png" alt="" style="">
@@ -299,7 +299,7 @@ Recently, [Cho *et al.* (2014)] have made some progress on representing phrases,
 Criticisms
 ===========
 
-I've heard some of the results reviewed above criticized by researchers in other fields, in particualar, in NLP and linguistics. The concerns are not with the results themselves, but the conclusions drawn from them, and how they compare to other techniques.
+I've heard some of the results reviewed above criticized by researchers in other fields, in particular, in NLP and linguistics. The concerns are not with the results themselves, but the conclusions drawn from them, and how they compare to other techniques.
 
 I don't feel qualified to articulate these concerns. I'd encourage someone who feels this way to describe the concerns in the comments.
 
