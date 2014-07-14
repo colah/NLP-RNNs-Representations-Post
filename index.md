@@ -94,7 +94,7 @@ This kind of 'map' of words makes a lot of intuitive sense to us. Similar words 
 
 <div class="bigcenterimgcontainer">
 <img src="img/Colbert-WordTable2.png" alt="" style="">
-<div class="caption">What words have embeddings closest to a given word? From [Colbert *et al.* (2011)] </div>
+<div class="caption">What words have embeddings closest to a given word? From [Collobert *et al.* (2011)] </div>
 </div>
 <div class="spaceafterimg"></div>
 
@@ -135,7 +135,7 @@ It's important to appreciate that all of these properties of $W$ are *side effec
 This seems to be a great strength of neural networks: they learn better ways to represent data, automatically. Representing data well, in turn, seems to be essential to success at many machine learning problems. Word embeddings are just a particularly striking example of learning a representation.
 
 [Bottou (2011)]: http://arxiv.org/pdf/1102.1808v3.pdf
-[Colbert *et al.* (2011)]: http://arxiv.org/pdf/1103.0398v1.pdf
+[Collobert *et al.* (2011)]: http://arxiv.org/pdf/1103.0398v1.pdf
 [Mikolov *et al.* (2013a)]: https://www.aclweb.org/anthology/N/N13/N13-1090.pdf
 [Mikolov *et al.* (2013b)]: http://arxiv.org/pdf/1301.3781.pdf
 [Turian *et al.* (2010)]: http://www.iro.umontreal.ca/~lisa/pointeurs/turian-wordrepresentations-acl10.pdf
