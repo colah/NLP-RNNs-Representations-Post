@@ -47,7 +47,9 @@ No, universality isn't an explanation for why neural networks work so well. The 
 Word Embeddings
 ===============
 
-I'd like to start by tracing a particularly interesting strand of deep learning research: word embeddings. In my personal opinion, word embeddings are one of the most exciting area of research in deep learning at the moment. Beyond that, I think they are one of the best places to gain intuition about why deep learning is so effective.
+I'd like to start by tracing a particularly interesting strand of deep learning research: word embeddings. In my personal opinion, word embeddings are one of the most exciting area of research in deep learning at the moment, although they were originally introduced by Bengio, *et al.* more than a decade ago.[^history] Beyond that, I think they are one of the best places to gain intuition about why deep learning is so effective.
+
+[^history]: Word embeddings were originally developed in ([Bengio et al, 2001](http://www.iro.umontreal.ca/~lisa/publications2/index.php/publications/show/64); [Bengio et al, 2003](http://machinelearning.wustl.edu/mlpapers/paper_files/BengioDVJ03.pdf)), a few years before the 2006 deep learning renewal, at a time when neural networks were out of fashion. The idea of distributed representations for symbols is even older, e.g. ([Hinton 1986](http://www.cogsci.ucsd.edu/~ajyu/Teaching/Cogs202_sp13/Readings/hinton86.pdf))."
 
 A word embedding $W: \mathrm{words} \to \mathbb{R}^n$ is a paramaterized function mapping words in some language to high-dimensional vectors (perhaps 200 to 500 dimensions). For example, we might find:
 
