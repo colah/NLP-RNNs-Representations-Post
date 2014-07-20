@@ -210,7 +210,7 @@ This was done by members of the Stanford group with only 8 known classes (and 2 
 
 <!-- (from KSH)?? -->
 
-The Google group did a much larger version -- instead of 8 categories, they used 1,000 -- around the same time ([Frome *et al.* (2013)]) and has followed up with a new variation ([Norouzi *et al.* (2014)]). Both are based on an very powerful image classification model (from [Krizehvsky *et al.* (2012)]), but embed images into the word embedding space in different ways.
+The Google group did a much larger version -- instead of 8 categories, they used 1,000 -- around the same time ([Frome *et al.* (2013)]) and has followed up with a new variation ([Norouzi *et al.* (2014)]). Both are based on a very powerful image classification model (from [Krizehvsky *et al.* (2012)]), but embed images into the word embedding space in different ways.
 
 The results are impressive. While they may not get images of unknown classes to the precise vector representing that class, they are able to get to the right neighborhood. So, if you ask it to classify images of unknown classes and the classes are fairly different, it can distinguish between the different classes.
 
